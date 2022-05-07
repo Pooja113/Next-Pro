@@ -4,28 +4,12 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {
@@ -51,7 +35,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -65,15 +49,28 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
+.mainnav > ul{
+  display: flex;
+  justify-content: center;
+}
+
+.mainnav li{
+  list-style: none;
+  margin: 10px 25px;
+  font-weight: bold;
+}
+
+
+
+.blog__container   {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 80%;
 }
 
-.card {
+.blog__cards {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -83,21 +80,22 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+   
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.blog__cards:hover,
+.blog__cards:focus,
+.blog__cards:active {
   color: #0070f3;
   border-color: #0070f3;
 }
 
-.card h2 {
+.blog__cards h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.card p {
+.blog__cards p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;

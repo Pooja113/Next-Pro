@@ -4,7 +4,7 @@ function Id(){
   const router = useRouter();
   const productId = router.query.id;
 
-  return <h1>Product Details {productId}</h1>
+  return <h1>Latest Blogs</h1>
 }
 
 export default Id

@@ -1,5 +1,5 @@
 import React from "react";
-import User from "../components/user";
+import User from "./user";
 
 function Users({users}){
   return (<React.Fragment>
